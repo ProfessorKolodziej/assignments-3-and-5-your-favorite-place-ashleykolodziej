@@ -1,0 +1,25 @@
+/* This is a comment in CSS */
+img {
+	display: block;
+	width: 100%;
+}
+
+h1 {
+	font-size: 10vw;
+	color: #fff;
+}
+
+body {
+	font-family: "Some custom", "Your backup", sans-serif;
+	margin: 0;
+}
+
+.banner {
+	background-image: url(https://placekitten.com/400/300);
+	display: flex;
+	position: relative;
+	min-height: 400px;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+}
